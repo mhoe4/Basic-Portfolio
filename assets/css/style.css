@@ -3,21 +3,23 @@
 }
 
 body {
-    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;;
     background-image: url("../images/white_sand.png");
     height: 100%;
     margin: 0;
     font-size: 12px;
+    position: relative;
+    height: 100%;
 }   
 
 header {
-    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
     background-color: #ffffff;
     top: 0;
     left: 0;
     width: 100%;
-    height: 62px;
-    border-bottom: 1px solid #bebebe;
+    height: 64px;
+    border-bottom: 1.5px solid #cccccc;
 }
 
 h1 {
@@ -51,12 +53,12 @@ ul {
 li {
     float: left;
     position:relative;
-    margin-left: 15px;
+    margin-left: 25px;
 }
 
 .divider {
     position: absolute;
-    right:-10px;
+    right:-15px;
 }
 
 a:link, a:visited {
@@ -68,16 +70,16 @@ a:hover, a:active {
     background-color: #a0a0a0;
 }
 
-.mid-section {
+.main-section {
     clear: both;
     overflow: hidden;
     
     background-color: #ffffff;
-    border: 1px solid #c7c7c7;
+    border: 1px solid #dddddd;
     width: 70%;
     margin: auto;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top:60px;
+    margin-bottom: 200px;
     color: #777777;
     padding: 0px 25px 30px 25px;
     line-height: 1.75;
@@ -86,7 +88,7 @@ a:hover, a:active {
 h2 {
     font-size: 28px;
     color: #4aaaa5;
-    border-bottom: 2px solid #ccc;
+    border-bottom: 2px solid #dbdbdb;
     padding-bottom: 20px; 
 }
 
