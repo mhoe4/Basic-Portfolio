@@ -7,7 +7,7 @@ body {
     background-image: url("../images/white_sand.png");
     height: 100%;
     margin: 0;
-    font-size: 12px;
+    font-size: 16px;
     position: relative;
     height: 100%;
 }   
@@ -72,29 +72,50 @@ a:hover, a:active {
 
 .main-section {
     clear: both;
-    overflow: hidden;
+    overflow: auto;
     
     background-color: #ffffff;
     border: 1px solid #dddddd;
-    width: 70%;
+    width: 960px;
     margin: auto;
     margin-top:60px;
     margin-bottom: 200px;
     color: #777777;
     padding: 0px 25px 30px 25px;
-    line-height: 1.75;
+    line-height: 2;
+}
+
+#bio-text {
+    display: block;
 }
 
 h2 {
     font-size: 28px;
     color: #4aaaa5;
     border-bottom: 2px solid #dbdbdb;
-    padding-bottom: 20px; 
+    padding-bottom: 10px; 
 }
 
-#bio-img {
+.container {
     float: left;
-    width: 20%;
+    position: relative;
+    text-align: center;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+}
+
+.portfolio-img {
+    width: 300px;
+}
+
+h3 {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    padding: 5px;
+    background-color: #4aaaa5;
+    color: #ffffff;
 }
 
 input[type=text] {
